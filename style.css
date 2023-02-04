@@ -1,0 +1,191 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#hero-section{
+    background: url('./rodemap/banner3.png');
+    background-size: cover;
+    background-position: bottom center;
+    width: 100%;
+    min-height: 624px;
+}
+
+.hero_txt-area{
+    padding-top: 130px;
+    padding-right: 35px;
+   
+}
+
+.hero_txt{
+    text-align: right;
+}
+
+.heading_txt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #efe3e3;
+    font-size: 50px;
+}
+
+.para_txt{
+    font-weight: 600;
+    color: black;
+}
+.btn{
+    padding: 10px 25px;
+    font-size: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+#second_section{
+    background-color: white;
+    height: 625px;
+    padding-bottom: 40px;
+}
+.person_img{
+    max-width: 100%;
+    max-height: 650px;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+#success_list li{
+    list-style: none;
+}
+
+#success_list li img  {
+     width: 20px;
+    height: 100%;
+    font-size: 30px;
+}
+.success_part{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.success_part_heading{
+    font-weight: 800;
+}
+
+@media only screen and (min-width: 768px) {
+    .success_part{
+        padding-top: 200px;
+        padding-left: 50px;
+    }
+    
+  }
+
+
+#section_plan {
+    background-color: white;
+    height: 525px;
+    padding-top: 150px;
+
+  }
+
+  @media only screen and (max-width:768px) {
+    #section_plan {
+    background-color: white;
+    height: 625px;
+    padding-top: 350px;
+
+  }
+ 
+  .plan_done{
+    padding-bottom: 40px;
+  }
+  }
+
+  .plan{
+    text-align: center;
+  }
+.icon{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#mindset_section{
+    height: 300px;
+    background-color: white;
+}
+
+.mindset_part{
+    box-sizing: border-box;
+    background-image: linear-gradient(to left , rgba(110, 232, 110, 0.272) , rgba(250, 89, 44, 0.963)), url("./rodemap/watch.png");
+   padding:50px 10px 50px 80px;
+   border-radius: 10px;
+}
+.mindset_part h1{
+    color: white;
+    font-weight: 600;
+    padding-bottom: 15px;
+    
+
+}
+
+
+@media only screen and (max-width:768px) {
+    #mindset_section {
+    background-color: white;
+    height: 625px;
+    padding-top: 750px;
+
+  }
+
+  .mindset_part{
+    box-sizing: border-box;
+    /* background-image: linear-gradient(to left , rgba(110, 232, 110, 0.272) , rgba(250, 89, 44, 0.963)), url("./rodemap/watch.png"); */
+    padding: 40px 20px;
+}
+}
+
+footer {
+    background-color: rgb(14, 4, 4);
+    height: 450px;
+    margin-top: 100px;
+
+  }
+  .footer_container{
+    padding-top: 70px;
+  }
+
+.future_plan{
+    color: white;
+}
+
+.social_icon{
+    list-style: none;
+    padding-left: 0px;
+}
+.social_icon li{
+    display: inline-block;    
+    padding-right: 20px;
+}
+
+.subscribe h3{
+    color: white;
+    padding-bottom: 10px;
+
+}
+.input_fild{
+    box-sizing: border-box;
+    background: black;
+    border: 2px solid white;
+    padding: 10px 30px 10px 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:768px) {
+    footer {
+    background-color: rgb(14, 4, 4);
+    height: 600px;
+    margin-top: 350px;
+  }
+  .subscribe{
+    padding-top: 50px;
+  }
+}
